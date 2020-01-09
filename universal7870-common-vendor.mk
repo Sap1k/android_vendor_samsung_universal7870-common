@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/camera.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.universal7870.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
@@ -60,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
@@ -68,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
+    vendor/samsung/universal7870-common/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2onfbadapter.so \
@@ -99,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/camera.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.universal7870.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/camera.universal7870.so:system/lib64/hw/camera.universal7870.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
@@ -153,5 +151,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@1.1.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so
+    vendor/samsung/universal7870-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so
